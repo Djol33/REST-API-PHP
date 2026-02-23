@@ -1,0 +1,27 @@
+{
+    "name": "nemanja/htdocs",
+    "autoload": {
+        "psr-4": {
+            "App\\": "",
+            "App\\Controller\\": "Controller/",
+            "App\\Router\\": "Router/",
+            "App\\Model\\": "Model/",
+            "App\\DTO\\": "DTO/",
+            "App\\DTO\\Request\\": "DTO/Request/",
+            "App\\Validator\\": "Validator/",
+            "App\\Exception\\\\": "Exception/",
+            "App\\HTTPClient\\": "HTTPClient/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Djol33",
+            "email": "djokovicnemanja239@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-http": "*",
+      "ext-curl": "*"
+    }
+}
