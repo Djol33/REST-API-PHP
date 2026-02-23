@@ -8,7 +8,7 @@ class DB
 {
 
     private $host = 'localhost';
-    private $dbname = 'nbsoft';
+    private $dbname = '*';
     private $username = 'root';
     private $password = '';
     protected $pdo;
@@ -29,5 +29,6 @@ class DB
             die("Greška pri povezivanju: " . $e->getMessage());
         }
     }
+
 
 }
